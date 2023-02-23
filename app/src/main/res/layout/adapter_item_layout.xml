@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 kg"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+ 12.50$"
+            android:layout_marginTop="15dp"
+            android:gravity="end"
+            android:layout_marginRight="95sp"
+            android:textSize="22sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plastic"
+            android:textSize="18sp"
+            android:textColor="#686767"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+
+
+
+
+    </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Income"
+            android:layout_marginTop="40dp"
+            android:textSize="18sp"
+            android:layout_gravity="end"
+            android:layout_marginRight="100dp"
+            android:textColor="#686767"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_gravity="end"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/ic_baseline_delete_24"/>
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</FrameLayout>
